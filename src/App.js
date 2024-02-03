@@ -1,22 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import affiche from './Kiwanis_affiche_concours_photo_31012024VF.jpg'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Concours Photos Kiwanis 2024- Revenez le 15 Février
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      
+        <img src={affiche} className="Affiche" alt="affiche" />
       </header>
     </div>
   );
